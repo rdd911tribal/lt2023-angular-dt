@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MydtComponent } from './basicdt.component';
+import { BasicDTComponent } from './basicdt.component';
 
 describe('MydtComponent', () => {
-  let component: MydtComponent;
-  let fixture: ComponentFixture<MydtComponent>;
+  let component: BasicDTComponent;
+  let fixture: ComponentFixture<BasicDTComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [MydtComponent],
+      declarations: [BasicDTComponent],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(MydtComponent);
+    fixture = TestBed.createComponent(BasicDTComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
